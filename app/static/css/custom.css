@@ -1,0 +1,28 @@
+.custom-bg {
+    background: linear-gradient(45deg, #6fe2e1, #5258e5) !important;
+}
+
+.custom-text {
+    color: #ffffff !important; /* Custom text color */
+}
+
+body {
+    background: linear-gradient(to left, #6fe2e1, #5258e5) !important;
+}
+
+
+.source-code-pro-custom {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #cbecff !important; /* Example color on hover */
+}
+
+/* Style for active nav link */
+.navbar-nav .nav-link.active {
+    color: #390a65 !important; /* Color for active page link */
+}
