@@ -2,13 +2,18 @@
     background: linear-gradient(45deg, #6fe2e1, #5258e5) !important;
 }
 
+.custom-bg2 {
+    background: linear-gradient(45deg, #5258e5, #6fe2e1) !important;
+}
+
+.custom-bg-purple {
+    background: #390a65;
+}
 .custom-text {
     color: #ffffff !important; /* Custom text color */
 }
 
-body {
-    background: linear-gradient(to left, #6fe2e1, #5258e5) !important;
-}
+
 
 
 .source-code-pro-custom {
@@ -25,4 +30,30 @@ body {
 /* Style for active nav link */
 .navbar-nav .nav-link.active {
     color: #390a65 !important; /* Color for active page link */
+}
+
+.bree-serif-regular {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.secondary-text-colour{
+    color: #390a65 !important;
+}
+
+.custom-btn {
+    border-radius: 10px;
+    text-decoration: none;
+    color: #f6ff00; /* Custom text color */
+    border: 2px solid #f6ff00; /* Custom border color */
+    font-family: 'Source Code Pro', monospace; /* Custom font from Google Fonts */
+    font-weight: 400; /* Bold text */
+    padding: 8px 10px; /* Custom padding */
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+.custom-btn:hover {
+    color: #ffffff; /* Change text color on hover */
+    border-color: white; /* Change border color on hover */
 }
