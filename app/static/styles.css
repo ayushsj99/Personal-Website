@@ -107,3 +107,14 @@ ul.timeline-list li:before {
     font-family: poppins;
     color: #390a65;
 }
+
+.heading{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.para{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+

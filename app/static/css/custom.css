@@ -13,7 +13,12 @@
     color: #ffffff !important; /* Custom text color */
 }
 
-
+.source-code-pro-custom-light {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+  }
 
 
 .source-code-pro-custom {
