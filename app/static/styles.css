@@ -1,3 +1,13 @@
+.navbar-expand-hover {
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-expand-hover:hover {
+  transform: scale(1.01); /* Slightly increases the size of the navbar */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05); /* Adds a subtle shadow for effect */
+}
+
+
 body {
     background-color: linear-gradient(to left, #6fe2e1, #5258e5) !important;
 }
@@ -118,3 +128,124 @@ ul.timeline-list li:before {
     margin-right: 40px;
 }
 
+
+
+
+
+
+
+body2 {
+    background-color: #100e17;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .card-container {
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    top: 60px;
+    left: calc(50% - 300px);
+    display: flex;
+  }
+  
+  .info-card {
+    display: flex;
+    height: 400px;
+    width: 350px;
+    background-color: #17141d;
+    border-radius: 10px;
+    box-shadow: 0rem 0 1rem #000;
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+  }
+  
+  .info-card:not(:first-child) {
+      margin-left: -50px;
+  }
+  
+  .info-card:hover {
+    transform: translateX(-40px);
+    transition: 0.4s ease-out;
+  }
+  
+  .info-card:hover ~ .info-card {
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
+  }
+  
+  .card-title {
+    color: rgb(183, 183, 183) !important;
+    font-weight: 100;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+  }
+  
+  .progress-bar {
+    position: absolute;
+    top: 115px;
+    left: 20px;
+    height: 5px;
+    width: 150px;
+  }
+  
+  .empty-progress {
+    background-color: #2e3033;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .filled-progress {
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    width: 0px;
+    height: 100%;
+    background: rgb(0,154,217);
+    background: linear-gradient(90deg, rgba(0,154,217,1) 0%, rgba(217,147,0,1) 65%, rgba(255,186,0,1) 100%);
+    transition: 0.6s ease-out;
+  }
+  
+  .info-card:hover .filled-progress {
+    width: 120px;
+    transition: 0.4s ease-out;
+  }
+  
+
+  
+  .progress-stroke {
+    stroke: white;
+    stroke-dasharray: 360;
+    stroke-dashoffset: 360;
+    transition: 0.6s ease-out;
+  }
+  
+  svg {
+    fill: #17141d;
+    stroke-width: 2px;
+  }
+  
+  .info-card:hover .progress-stroke {
+    stroke-dashoffset: 100;
+    transition: 0.6s ease-out;
+    color: #777 !important;
+  }
+
+  .card-content{
+    color: rgb(183, 183, 183) !important;
+    font-weight: 100;
+    position:absolute;
+    left: 20px;
+    top: 55px;  
+  }
+
+  .card-paragraph{
+    color: rgb(183, 183, 183) !important;
+    font-weight: 100;
+    position:absolute;
+    left: 15px;
+    top: 130px;  
+    padding: 10px;
+  }
