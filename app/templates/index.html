@@ -1,18 +1,27 @@
-{%extends "base.html" %}
+{% extends "base.html" %}
 
-
-{%block body%}
+{% block body %}
     <div class="container pt-4">
-    <div class="row mt-5">
-        <div class="col-8 col-md-8 pt-5">
-            <h1 class="display-1 bree-serif-regular custom-text pb-4" ><span class="secondary-text-colour">Ayush</span> S. Jadhav</h1>
-            <p class="lead custom-text pb-2" style="width: 700px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href="{{url_for('contact')}}" class="custom-btn">Connect</a>
-        </div>
-        <div class="col-4">
-            <img src="{{ url_for('static', filename='images/ayush-img-1.png')}}" style='height: 500px; width: auto'alt="Ayush S. Jadhav">
+        <div class="row mt-5">
+            <div class="col-8 col-md-8 pt-5">
+                <h1 class="display-1 bree-serif-regular custom-text pb-4">
+                    <span class="secondary-text-colour">Ayush</span> S. Jadhav
+                </h1>
+                <p class="lead custom-text pb-2" style="width: 700px">
+                    
+Welcome to my personal website!<br>  
+Here you'll find details about my experiences and skills. Stay tuned for my gallery and projects, which will be posted soon. Feel free to contact me here!
+                </p>
+                <a href="{{ url_for('contact') }}" class="custom-btn">Connect</a>
+            </div>
+            <div class="col-4">
+                <img src="{{ url_for('static', filename='images/ayush-img-1.png') }}" 
+                     class="scale-on-hover"
+                     style='height: 500px; width: auto'
+                     alt="Ayush S. Jadhav">
+            </div>
         </div>
     </div>
 </div>
-</div>
-{%endblock%}
+
+{% endblock %}

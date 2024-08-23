@@ -48,14 +48,14 @@
 }
 
 .custom-btn {
-    border-radius: 10px;
-    text-decoration: none;
-    color: #f6ff00; /* Custom text color */
-    border: 2px solid #f6ff00; /* Custom border color */
-    font-family: 'Source Code Pro', monospace; /* Custom font from Google Fonts */
-    font-weight: 400; /* Bold text */
-    padding: 8px 10px; /* Custom padding */
-    transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+    border-radius: 10px !important; /* Custom border radius */
+    text-decoration: none !important;
+    color: #f6ff00 !important; /* Custom text color */
+    border: 2px solid #f6ff00 !important; /* Custom border color */
+    font-family: 'Source Code Pro', monospace !important; /* Custom font from Google Fonts */
+    font-weight: 400 !important; /* Bold text */
+    padding: 8px 10px !important; /* Custom padding */
+    transition: all 0.3s ease-in-out !important; /* Smooth transition for hover effects */
 }
 
 .custom-btn:hover {
